@@ -1,0 +1,25 @@
+https://nodejs.org/dist/v14.16.1/node-v14.16.1-x64.msi
+
+//package.json 파일 생성
+npm init -y
+
+//json 파일 풀어 node_modules 폴더 생성
+//공유시 위의 json 파일만 공유
+npm install express socket.io moment
+
+//app.js : 서버 구동 Js파일
+
+//node app.js : 구동 명령어
+
+
+//서버 자동 재실행
+npm install -g nodemon
+nodemon app.js
+
+//nodemon 설정 위해
+//powershell 관리자
+//set-executionpolicy unrestricted
+
+//도메인화 npm intall -g ngrok
+//ngrok http 5000
+//npm start
